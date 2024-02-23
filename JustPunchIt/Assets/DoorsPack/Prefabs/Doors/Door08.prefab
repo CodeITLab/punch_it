@@ -547,7 +547,6 @@ GameObject:
   - component: {fileID: 11160374}
   - component: {fileID: 6561410}
   - component: {fileID: 11455508}
-  - component: {fileID: 11427482}
   m_Layer: 0
   m_Name: Door08
   m_TagString: Untagged
@@ -647,47 +646,6 @@ MonoBehaviour:
     Frame_top02: {fileID: 484018}
     Coll: {fileID: 499484}
     Coll02: {fileID: 453660}
---- !u!114 &11427482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 166180}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f5219d242945b640aeed524ba22a17a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerHeadTag: MainCamera
-  knob: {fileID: 435828}
-  controls:
-    openingSpeed: 1
-    closingSpeed: 1.3
-    closeStartFrom: 0.27
-    openMethod: 0
-    openButton: 101
-    autoClose: 0
-  AnimationNames:
-    OpeningAnim: Door_open
-    LockedAnim: Door_locked
-  doorSounds:
-    enabled: 1
-    open: {fileID: 8300000, guid: af0158a12001c1647b4fe18999e7fc66, type: 3}
-    close: {fileID: 8300000, guid: f1162bae392433f4eadf47a28c750bdb, type: 3}
-    closed: {fileID: 8300000, guid: 096fe764cf8133d49be8f42c058524d1, type: 3}
-    volume: 1
-    pitchRandom: 0.2
-  doorTexts:
-    enabled: 1
-    openingText: Press [BUTTON] to open
-    closingText: Press [BUTTON] to close
-    lockText: You need a key!
-    TextPrefab: {fileID: 115870, guid: f349eb179f1063642b5c4cd916645e4f, type: 3}
-  keySystem:
-    enabled: 0
-    isUnlock: 0
-    LockPrefab: {fileID: 0}
 --- !u!1 &168994
 GameObject:
   m_ObjectHideFlags: 0
